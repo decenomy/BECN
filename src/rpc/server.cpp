@@ -376,8 +376,6 @@ static const CRPCCommand vRPCCommands[] =
         {"beacon", "listmasternodeconf", &listmasternodeconf, true },
         {"beacon", "getactivemasternodecount", &getactivemasternodecount, true },
         {"beacon", "getmasternodestatus", &getmasternodestatus, true },
-        {"beacon", "getmasternodewinners", &getmasternodewinners, true },
-        {"beacon", "getmasternodescores", &getmasternodescores, true },
         {"beacon", "mnsync", &mnsync, true },
         {"beacon", "spork", &spork, true },
         {"beacon", "mnping", &mnping, true },
